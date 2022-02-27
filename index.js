@@ -25,11 +25,3 @@ io.on('connection',socket=>{
     socket.broadcast.emit('left',users[socket.id])
 })
 })
-// let i=15;
-// const users={};
-// io.on('connection',socket=>{
-    
-//     socket.on('send',message=>{
-//         socket.broadcast.emit('recieve',{message:message,username:users[socket.i]})
-//     })
-// 
