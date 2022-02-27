@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.chatApp{
+    width: 100vw;
+    min-height: 100vh;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.fa{
+    color: rgb(49, 153, 194);
+    font-size: 5rem;
+}
+nav div{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav h2{
+    font-size: 3rem;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: azure;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+}
+.message{
+    width: 24%;
+    height: 15%;
+    margin: 10px 5px;
+}
+.message h4{
+    font-size: 1.5rem;
+}
+.message p{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 2rem;
+    width: 100%;
+    padding: 5px;
+}
+.message .joined{
+    color: rgb(20, 223, 81);
+}
+.leaved{
+    color: red;
+}
+.left{
+align-self: flex-start;
+}
+.left p{
+    background-color: rgb(175, 103, 243);
+}
+.right{
+    align-self: self-end;
+}
+.right p{
+    background-color: rgb(204, 162, 243);
+}
+#send{
+    margin-top: 10px;
+    text-align: center;
+}
+form input{
+    width: 910px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    height: 30px;
+    outline: none;
+}
+form button{
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(189, 150, 226);
+    outline: none;
+}
